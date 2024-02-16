@@ -1,0 +1,13 @@
+meme_dict = {
+            "DOXEAR": "conseguir datos personales de alguien",
+            "LOL": "Una respuesta común a algo gracioso",
+            "WEY": "la persona a la que te refieres",
+            "TOXICO": "persona que es mala oh celosa",
+            "XD": "algo gracioso"
+            }
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+
+if word in meme_dict.keys():
+    print (meme_dict[word])
+else:
+    print ("esa palabra no esta en el diccionario")            
